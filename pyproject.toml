@@ -11,3 +11,8 @@ quick-start = { workspace = true }
 
 [tool.uv.workspace]
 members = ["apps-uv/*"]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+]
